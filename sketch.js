@@ -23,8 +23,8 @@ function setup() {
   frameRate(80);
 
   ground = new Base(0, height - 10, width * 2, 20, "#795548", true);
-  leftWall = new Base(350, height / 2 + 50, 700, 100, "#8d6e63", true);
-  rightWall = new Base(width - 350, height / 2 + 50, 700, 100, "#8d6e63", true);
+  leftWall = new Base(350, height / 2 + 50, 300, 100, "#8d6e63", true);
+  rightWall = new Base(width - 350, height / 2 + 50, 300, 100, "#8d6e63", true);
 
   bridge = new Bridge(17, { x: width / 2 - 400, y: height / 2 });
   jointPoint = new Base(width - 650, height / 2 + 10, 40, 20, "#8d6e63", true);
